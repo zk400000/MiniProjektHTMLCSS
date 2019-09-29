@@ -1,0 +1,123 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto; 
+}
+
+.Container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 35px black;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+/*Brand only*/
+.brand a,
+.brand img {
+    display: block;
+    height: auto;
+}
+
+/*Menu*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+nav a {
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: block;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+}
+
+/* Slider */
+.Slider {
+    display: block;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 70%;
+    padding: 30px;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-left: 1px solid blue;
+    background: lavender;
+}
+
+.widget {
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.widget img {
+	float: left;
+	margin: 0 12px 5px 0;
+}
+
+.widget ul {
+	list-style-type: square;
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+.widget li {
+	margin-bottom: 15px;
+}
+
+footer {
+    background: lightcyan;
+    border-top: 1p slid darkred;
+    padding: 22px 15px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    }
