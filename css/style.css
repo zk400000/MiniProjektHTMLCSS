@@ -121,3 +121,8 @@ footer {
 footer p{
     margin: 0;
     }
+
+.mycentering {
+    background: lightcoral;
+    margin: 5px;
+    }
