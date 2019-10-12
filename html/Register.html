@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+                <!-- Logo i linki -->
+                <section class="brand">
+                    <!-- logo lewa górna strona -->
+                    <a href="#">
+                        <img src="../assets/zibi.jpg" alt="Logo">
+                    </a>
+                    <!-- <img src="https://unsplash.it/150/60?image=906" height="50" alt="IntLogo"> -->
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Strona Główna</a></li>
+                        <li><a href="#">Galeria</li></a>
+                        <li><a href="#">O Firmie</li></a>
+                        <li><a href="../html/Register.html">Rejestracja</li></a>
+                    </ul>
+                </nav>
+    
+            </header>
+            <section class="slider">
+                <img src="https://unsplash.it/2000/600?image=945" alt="slider">
+            </section>
+
+
+        <h1>Formularz rejestracyjny</h1>
+        <!-- <a href="../index.html">Strona Główna</a> -->
+        <div class="mycentering">
+            <form action"">
+                <label for="name">Podaj imię:</label>
+                <input type="text" class="styling" name="name" id="name" placeholder="Podaj imię">
+                
+                <br>
+                <label for="szukaj">Podaj nazwisko:</label>
+                <input type="search" class="styling" name"szukaj" id="szukaczka" placeholder="Podaj słowo">
+                
+                <br>
+                <label for="data_ur">Podaj datę urodzenia:</label>
+                <input type="date" name="data_ur">
+                
+                <br>
+                <label for "numer_telefonu">Podaj numer telefonu:</label>    
+                <input type="tel" name="numer_telefonu">
+
+                <br>
+                <label for="emailik">Podaj e-mail:</label>
+                <input type="email" name"emailik">
+                
+                <br>
+                <label for="country">Wybierz nazwę państwa:</label>
+                <select name="country" id="country">
+                    <option selected value="Polska">Polska</option>
+                    <option value="USA">USA</option>
+                    <option value="CCCR">CCCR</option>
+                </select>
+
+                <br>
+                <label for="gender">Wybierz płeć:</label>
+                <input type="radio" name="gender"> Kobieta
+                <input type="radio" name="gender"> Mężczyzna
+                <input type="radio" name="gender"> Nie chcę podawać
+
+                <br><br><br>
+                <button type="submit">Wyślij</button>
+            </form>  
+        </div>
+
+        <footer>
+            <p>&copy Zibowski &reg </p>
+        </footer>
+    </div>
+</body>
+</html>
